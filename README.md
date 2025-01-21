@@ -50,9 +50,12 @@ Handles errors and edge cases at each step.
 
 
 ### Dependencies
-#### fitz (PyMuPDF): A Python library for working with PDF and other document formats, enabling tasks like extracting images, text, and metadata from PDF files.
-#### pytesseract: A Python wrapper for Google's Tesseract-OCR engine, used for extracting text from images using optical character recognition (OCR).
-#### PIL (Pillow): A Python Imaging Library fork that provides image processing capabilities, such as opening, manipulating, and saving image files in various formats.
+#### fitz (PyMuPDF):
+      A Python library for working with PDF and other document formats, enabling tasks like extracting images, text, and metadata from PDF files.
+#### pytesseract:
+      A Python wrapper for Google's Tesseract-OCR engine, used for extracting text from images using optical character recognition (OCR).
+#### PIL (Pillow):
+      A Python Imaging Library fork that provides image processing capabilities, such as opening, manipulating, and saving image files in various formats.
 
 ##### Install Required Libraries:
 pip install pymupdf pillow pytesseract
