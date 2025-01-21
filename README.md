@@ -27,7 +27,7 @@ Function: perform_ocr_on_images(images)
 Library Used: pytesseract (Tesseract OCR)
 Process:
 Each image from the extracted list is passed to pytesseract.image_to_string() for OCR.
-The text from all images is combined, with page delimiters (--- Page X ---) added for clarity.
+The text from all images is combined, with page delimiters added for clarity.
 Output: A single string containing all the extracted text.
 
 ##### 4. Save Extracted Text
